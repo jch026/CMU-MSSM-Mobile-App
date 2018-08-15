@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LugAway_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7at-fQ-Q4z">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bD0-3X-DHC" userLabel="ContentView">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="header logo" translatesAutoresizingMaskIntoConstraints="NO" id="7ep-ad-0Yi">
+                                                <rect key="frame" x="141" y="28" width="132" height="46"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="46" id="88Z-l6-lXb"/>
+                                                    <constraint firstAttribute="width" constant="132" id="w7o-ow-P4s"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Created by Joseph Ho" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Kt-lZ-ecH">
+                                                <rect key="frame" x="122.33333333333333" y="971" width="170.66666666666669" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Luggage Center" translatesAutoresizingMaskIntoConstraints="NO" id="qk7-X6-ijT">
+                                                <rect key="frame" x="87" y="82" width="240" height="128"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="128" id="Evp-Bl-jMa"/>
+                                                    <constraint firstAttribute="width" constant="240" id="MIy-ze-yKe"/>
+                                                </constraints>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="aRq-cd-oaO">
+                                                <rect key="frame" x="65" y="218" width="285" height="195"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="285" id="eYL-Gb-NmF"/>
+                                                    <constraint firstAttribute="height" constant="195" id="lG4-On-7nh"/>
+                                                </constraints>
+                                                <string key="text">Atlas was a greek titan condemned to bear the weight of the heavens on his shoulders. Don't be like Atlas, let us lugaway your luggage so you can travel freely without the burden of your belongings. Simply enter your pickup location and we will come get your luggage. We will hold your luggage in a secure storage location until we meet you at a time and destination that best suits you.</string>
+                                                <color key="textColor" red="0.0" green="0.25454744392857143" blue="0.5671037946428571" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Phone" translatesAutoresizingMaskIntoConstraints="NO" id="abs-AV-KMc">
+                                                <rect key="frame" x="65" y="421" width="54" height="51"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Email" translatesAutoresizingMaskIntoConstraints="NO" id="B61-u3-9Sx">
+                                                <rect key="frame" x="65" y="480" width="54" height="51"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Website" translatesAutoresizingMaskIntoConstraints="NO" id="Q3b-XN-LyE">
+                                                <rect key="frame" x="65" y="539" width="54" height="51"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(858) 248-9327" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xhw-x8-8KE">
+                                                <rect key="frame" x="141" y="421" width="209" height="51"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="joe.ho@live.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PZQ-gx-12Y">
+                                                <rect key="frame" x="141" y="480" width="209" height="51"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="www.lugawayapp.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AJA-A2-GRT">
+                                                <rect key="frame" x="141" y="539" width="209" height="51"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="0Kt-lZ-ecH" firstAttribute="top" secondItem="aRq-cd-oaO" secondAttribute="bottom" constant="558" id="39k-fQ-cLe"/>
+                                            <constraint firstAttribute="bottom" secondItem="0Kt-lZ-ecH" secondAttribute="bottom" constant="8" id="5V4-Eh-z1f"/>
+                                            <constraint firstAttribute="trailing" secondItem="aRq-cd-oaO" secondAttribute="trailing" constant="64" id="8aL-vS-Z2w"/>
+                                            <constraint firstItem="aRq-cd-oaO" firstAttribute="top" secondItem="qk7-X6-ijT" secondAttribute="bottom" constant="8" id="8ap-kd-Kqi"/>
+                                            <constraint firstItem="aRq-cd-oaO" firstAttribute="leading" secondItem="bD0-3X-DHC" secondAttribute="leading" constant="65" id="Fwc-si-rcP"/>
+                                            <constraint firstItem="aRq-cd-oaO" firstAttribute="centerX" secondItem="bD0-3X-DHC" secondAttribute="centerX" id="O7H-JK-iWB"/>
+                                            <constraint firstItem="0Kt-lZ-ecH" firstAttribute="centerX" secondItem="bD0-3X-DHC" secondAttribute="centerX" id="Zmo-DS-Xc9"/>
+                                            <constraint firstItem="qk7-X6-ijT" firstAttribute="centerX" secondItem="bD0-3X-DHC" secondAttribute="centerX" id="dT7-hY-Y3V"/>
+                                            <constraint firstItem="qk7-X6-ijT" firstAttribute="top" secondItem="7ep-ad-0Yi" secondAttribute="bottom" constant="8" id="kv1-lw-mp8"/>
+                                            <constraint firstItem="7ep-ad-0Yi" firstAttribute="centerX" secondItem="bD0-3X-DHC" secondAttribute="centerX" id="oC6-cg-159"/>
+                                            <constraint firstItem="7ep-ad-0Yi" firstAttribute="top" secondItem="bD0-3X-DHC" secondAttribute="top" constant="28" id="wK9-ZO-QFV"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="bD0-3X-DHC" firstAttribute="top" secondItem="7at-fQ-Q4z" secondAttribute="top" id="9q9-2L-Bfb"/>
+                                    <constraint firstItem="bD0-3X-DHC" firstAttribute="leading" secondItem="7at-fQ-Q4z" secondAttribute="leading" id="AXg-t0-6ma"/>
+                                    <constraint firstItem="bD0-3X-DHC" firstAttribute="width" secondItem="7at-fQ-Q4z" secondAttribute="width" id="Hat-3O-nse"/>
+                                    <constraint firstItem="bD0-3X-DHC" firstAttribute="height" secondItem="7at-fQ-Q4z" secondAttribute="height" priority="250" id="Sbs-Ph-hCy"/>
+                                    <constraint firstAttribute="trailing" secondItem="bD0-3X-DHC" secondAttribute="trailing" id="oy8-HV-f3b"/>
+                                    <constraint firstAttribute="bottom" secondItem="bD0-3X-DHC" secondAttribute="bottom" id="yJh-kY-3F7"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7at-fQ-Q4z" secondAttribute="trailing" id="Pl4-2k-WMi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="7at-fQ-Q4z" secondAttribute="top" constant="20" id="QpT-Tn-Z9i"/>
+                            <constraint firstItem="7at-fQ-Q4z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="TEH-qT-hFg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7at-fQ-Q4z" secondAttribute="bottom" id="W3S-Pj-fVk"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="1000"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="133.33333333333334" y="131.25"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Email" width="222" height="156"/>
+        <image name="Luggage Center" width="802" height="532"/>
+        <image name="Phone" width="184" height="152"/>
+        <image name="Website" width="202" height="162"/>
+        <image name="header logo" width="554" height="168"/>
+    </resources>
+</document>
